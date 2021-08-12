@@ -1,8 +1,18 @@
 import React from "react";
-import "./App.css";
+import NavigationBar from "./Components/NavigationBar/NavigationBar";
+import Header from "./Components/Header/Header";
+import Contents from "./Components/MainContent/Contents/Contents";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <main>
+      <NavigationBar />
+      <Header />
+      <Contents />
+      <Footer />
+    </main>
+  );
 }
 
 export default App;
